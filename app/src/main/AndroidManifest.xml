@@ -12,35 +12,41 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidPractical"
         tools:targetApi="31">
-
         <activity
             android:name=".ProgressBarClass"
             android:exported="true">
 
-<!--                <intent-filter>
+            <!--
+                    <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter> -->
+            </intent-filter>
+            -->
         </activity>
         <activity
             android:name=".RadioButtonRadioGroup"
             android:exported="true">
 
-<!--            <intent-filter>
+            <!--
+                <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
+            </intent-filter>
+            -->
         </activity>
         <activity
             android:name=".Checkbox"
             android:exported="true">
-<!--            <intent-filter>
+
+            <!--
+                <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
+            </intent-filter>
+            -->
         </activity>
         <activity
             android:name=".LoginWindowUiControls"
@@ -66,28 +72,33 @@
             </intent-filter>
             -->
         </activity>
-
         <activity
             android:name=".ListViewGridViewImageViewScrollView"
-            android:exported="true" >
-                        <intent-filter>
-                            <action android:name="android.intent.action.MAIN" />
+            android:exported="true">
+<!--            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-                            <category android:name="android.intent.category.LAUNCHER" />
-                        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
         </activity>
-
         <activity
             android:name=".CustomToastAlertActivity"
             android:exported="true">
-<!--                        <intent-filter>
-                            <action android:name="android.intent.action.MAIN" />
+<!--            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-                            <category android:name="android.intent.category.LAUNCHER" />
-                        </intent-filter>-->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
         </activity>
+        <activity
+            android:name=".DateTimePickerActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
