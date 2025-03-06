@@ -15,6 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class Checkbox extends AppCompatActivity {
 
     CheckBox checkBoxSports, checkBoxMusic, checkBoxMovies;
+
     Button btnSubmit;
 
     @Override
